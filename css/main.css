@@ -1,1 +1,86 @@
 /* Agrega aquí tus estilos*/
+#zen-intro {
+    background-color: #ddc297;
+    color: white;
+    padding: 10em 2em 2em;
+    text-align: center;
+    background-image: url(../img/zen-garden-relaxation.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 30em;
+    background-attachment: fixed;
+    position: relative;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color:#9E9D62;
+    font-size: 0.8em;
+} 
+
+#zen-preamble {
+    margin-left: 30em;
+    margin-right: 30em;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1em;
+    min-width: 250px;
+}
+
+h1,h2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Chewy', cursive;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+#zen-supporting {
+    width: 60%;
+}
+
+aside {
+    width: 10%;
+    text-align: left;
+}
+
+aside, #zen-supporting {
+    min-width: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page-wrapper {
+    text-align:center;
+}
+
+a {
+    color: #e5740b;
+    text-decoration: none;
+}
+
+#zen-supporting h3 {
+    font-size: 2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
